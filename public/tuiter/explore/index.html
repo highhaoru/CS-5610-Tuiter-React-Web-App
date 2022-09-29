@@ -4,39 +4,203 @@
     <meta charset="UTF-8">
     <title>Explore</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="index.css"
-          rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/solid.css">
+    <link rel="stylesheet" href="css/brands.css">
+
 </head>
 <body>
-<div class="bg-color-black boarder-gray">
-    <div class="row font-middle boarder-solid boarder-gray">
-        <div class="padded-left">
-            <i class="fa fa-search"></i>
-            <input type="text"
-                   class="rounded-corners-all-around bg-color-dark-gray font-color-white padded-left "
-                   placeholder="        Search Tuiter">
-            <a href="explore/settings.html"
-               class="set-icon"
-               style="text-decoration:none"><i class="fa fa-cog"
-                                               aria-hidden="true"
-                                               style="font-size:24px"></i></a>
+<!--class="bg-color-black boarder-gray"-->
+<div class="wb-search-nav-bar">
+    <!--class="row font-middle boarder-solid boarder-gray"-->
+    <div class="wb-search-nav-bar-container">
+        <!--class="padded-left"-->
+        <div class="flex-container">
+
+            <div class="flex-box flex-box-2">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text"
+                       placeholder="Search Tuiter">
+            </div>
+
+            <div class="flex-box flex-box-3">
+                <a href="#" class="set-icon">
+                    <i class="fa fa-cog" aria-hidden="true"></i></a>
+            </div>
         </div>
 
-
-
         <div class="float-done"></div>
-        <div class="padded-top padded-bottom">
-            <a href="" style="text-decoration:none" class="padded-around font-color-blue rounded-corners-line boarder-bottom">For you</a>
-            <a href="" style="text-decoration:none" class="padded-around font-color-gray">Trending</a>
-            <a href="" style="text-decoration:none" class="padded-around font-color-gray">COVID_19</a>
-            <a href="" style="text-decoration:none" class="padded-around font-color-gray">News</a>
-            <a href="" style="text-decoration:none" class="padded-around font-color-gray">Sports</a>
-            <a href="" style="text-decoration:none" class="padded-around font-color-gray">Entertainment</a>
+
+        <!--class="padded-top padded-bottom"-->
+        <div class="wb-nav-bar">
+            <!--class="padded-around font-color-blue rounded-corners-line boarder-bottom"-->
+            <a href="#" id="wb-for-you">For you</a>
+            <!--class="padded-around font-color-gray"-->
+            <a href="#">Trending</a>
+            <a href="#">COVID-19</a>
+            <a href="#">News</a>
+            <a href="#">Sports</a>
+            <a href="#">Entertainment</a>
         </div>
     </div>
 
+    <!--class="boarder-solid boarder-gray padded-around"-->
+    <div class="wb-thematic-break">
+        <br>
+    </div>
 
+    <!--class="boarder-solid boarder-gray padded-around"-->
+    <div class="wb-post">
+        <div class="wb-post-left">
+            <!--class="topic font-color-gray font-small"-->
+            <div class="wb-post-topic">
+                Trending in Science
+            </div>
+
+            <!--class="title font-color-white"-->
+            <div class="wb-post-title">
+                Starship
+            </div>
+
+            <!--class="number-of-tuits font-color-gray font-small"-->
+            <div class="wb-post-tuits-number">
+                55.5k Tweets
+            </div>
+        </div>
+
+        <div class="wb-post-right">
+                <a href="#">···</a>
+        </div>
+    </div>
+
+    <!--class="boarder-solid boarder-none-top boarder-gray padded-around"-->
+    <div class="wb-post">
+        <div class="wb-post-left">
+            <!--class="topic font-color-gray font-small"-->
+            <div class="wb-post-topic">
+                Sports · Trending
+            </div>
+
+            <!--class="title font-color-white"-->
+            <div class="wb-post-title">
+                Job Rogan
+            </div>
+
+            <!--class="number-of-tuits font-color-gray font-small"-->
+            <div class="wb-post-tuits-number">
+                5,218 Tweets
+            </div>
+        </div>
+
+        <div class="wb-post-right">
+            <a href="#">···</a>
+        </div>
+    </div>
+
+    <!--class="boarder-solid boarder-none-top boarder-gray padded-around"-->
+    <div class="wb-post-photos">
+        <div class="float-left">
+
+            <!--class="wb-post3-author font-color-white font-middle"-->
+            <div class="wb-post-author">
+                The New York Time <span class="wb-yesterday">· Yesterday</span>
+            </div>
+
+            <!--class="wb-post3-title font-color-white"-->
+            <div class="wb-post-title">
+                CNN's Cuomo conundrum: A star anchor with a brother in trouble
+            </div>
+        </div>
+
+        <div class="wb-right-picture">
+            <!--class="float-right rounded-corners-all-around image-size"-->
+            <img class="wb-picture" src="cnn.jpg">
+        </div>
+
+        <div class="float-done"></div>
+    </div>
+
+    <!--class="boarder-solid boarder-none-top boarder-gray padded-around"-->
+    <div class="wb-post-photos">
+        <div class="float-left">
+
+            <!--class="topic font-color-gray font-small"-->
+            <div class="wb-post-topic">
+                COVID-19 · LIVE
+            </div>
+
+            <!--class="wb-post-title font-color-white"-->
+            <div class="wb-post-title">
+                COVID-19: News and updates for Massachusetts
+            </div>
+        </div>
+        <div class="wb-right-picture">
+            <!--class="float-right rounded-corners-all-around image-size"-->
+            <img class="wb-picture" src="ma.jpg">
+        </div>
+
+
+        <div class="float-done"></div>
+    </div>
+
+    <!--class="boarder-solid boarder-none-top boarder-gray padded-around"-->
+    <div class="wb-post-photos">
+        <div class="float-left">
+
+            <!--class="wb-post3-author font-color-white font-middle"-->
+            <div class="wb-post-author">
+                <div class="wb-logo">
+                    <img src="bloomberg%20logo.jpg">
+                </div>
+                <div class="wb-author-name">
+                    <a href="#">Bloomberg Opinion<i class="fa-regular fa-badge-check"></i></a>
+
+                    <span class="wb-yesterday">· Yesterday</span>
+                </div>
+                <div class="wb-account-info">
+
+                </div>
+
+            </div>
+
+            <!--class="wb-post-title font-color-white"-->
+            <div class="wb-post-title">
+                Thinking about getting a booster? Read this first.
+            </div>
+        </div>
+
+        <div class="wb-right-picture">
+            <!--class="float-right rounded-corners-all-around image-size"-->
+            <img class="wb-picture" src="booster.jpg">
+        </div>
+        <div class="float-done"></div>
+    </div>
+
+    <!--class="boarder-solid boarder-none-top boarder-gray padded-around"-->
+    <div class="wb-post">
+        <div class="wb-post-left">
+            <!--class="topic font-color-gray font-small"-->
+            <div class="wb-post-topic">
+                Trending in United States
+            </div>
+
+            <!--class="wb-post-title font-color-white"-->
+            <div class="wb-post-title">
+                Wonder Bread
+            </div>
+
+            <!--class="number-of-tuits font-color-gray font-small"-->
+            <div class="wb-post-tuits-number">
+                1,259 Tweets
+            </div>
+        </div>
+
+        <div class="wb-post-right">
+            <a href="#">···</a>
+        </div>
+    </div>
+
+    <div class="float-done"></div>
 </div>
 
 </body>
