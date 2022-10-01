@@ -1,57 +1,59 @@
-.wb-search-nav-bar{
+.wb-explore{
     background-color:black;
     color:gray;
+    padding: 5px 12px 35px 16px;
 }
 .wb-search-nav-bar-container{
-    border:1px solid;
+    border:1px solid rgb(47, 51, 54);
     color:white;
     font-size: 15px;
-    padding-top: 16px;
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-right: 12px;
 }
 
-.flex-container {
-    padding-left: 16px;
+.wb-search-bar-container {
     border:none;
     display: flex;
     justify-content: space-between;
 }
 
-.flex-box-2 {
+.wb-search-bar {
     border: none;
     width: 90%;
     padding-left: 16px;
+    padding-bottom: 10px;
     border-radius: 20px;
     background-color: #2d2c2c;
 }
 
-.flex-box-2 i {
+.wb-search-bar i {
     color:gray;
     font-weight: lighter;
     padding-top: 9px;
 }
 
-.flex-box-2 input {
+.wb-search-bar input {
     background-color: #2d2c2c;
     border: none;
     color: white;
     width: 90%;
     padding-left: 10px;
-    padding-top: 9px;
     outline: none;
 }
 
-.flex-box-3 {
+.wb-search-bar-set {
     border: none;
     font-size: 24px;
     padding-right: 12px;
 }
 
-.flex-box-3 .set-icon {
+.wb-search-bar-set .set-icon {
     color: #09bff1;
     text-decoration: none;
 }
 
-.flex-box-3 .set-icon:hover {
+.wb-search-bar-set .set-icon:hover {
     color: white;
     text-decoration: none;
 }
@@ -79,6 +81,7 @@
     padding:16px;
     color: rgb(110, 118, 125);
     font-weight: bolder;
+    font-size: 15px;
 }
 
 .wb-nav-bar a:hover {
@@ -100,7 +103,7 @@
 }
 
 .wb-post-photos {
-    border:1px solid;
+    border:1px solid rgb(47, 51, 54);
     color:white;
     padding-left:16px;
     padding-top: 16px;
@@ -108,7 +111,7 @@
 }
 
 .wb-post {
-    border:1px solid;
+    border:1px solid rgb(47, 51, 54);
     color:white;
     padding-left:16px;
     padding-top: 0;
