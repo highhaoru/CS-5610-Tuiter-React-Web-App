@@ -25,7 +25,7 @@
 }
 
 .flex-box-2 i {
-    color:red;
+    color:gray;
     font-weight: lighter;
     padding-top: 9px;
 }
@@ -165,8 +165,30 @@
     font-size: 15px;
 }
 
+.wb-post-author {
+    display: inline-block;
+    width: 100%;
+}
+
+.wb-logo {
+    float: left;
+    padding-right: 8px;
+}
+
+.wb-logo img {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
 .wb-author-name i{
-    position: absolute;
+    padding-left: 8px;
+}
+
+.wb-author-name a{
+    color: white;
+    text-decoration: none;
+    padding-right: 5px;
 }
 
 .wb-right-picture {
