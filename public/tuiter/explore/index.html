@@ -6,207 +6,320 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="index.css" rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/9eae3ace91.js" crossorigin="anonymous"></script>
-<!--    https://cdnjs.com/libraries/font-awesome/4.7.0-->
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+          rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
 </head>
-<body>
-<!--class="bg-color-black boarder-gray"-->
-<div class="wb-explore">
-    <!--class="row font-middle boarder-solid boarder-gray"-->
-    <div class="wb-search-nav-bar-container">
-        <!--class="padded-left"-->
-        <div class="wb-search-bar-container">
+<body class="body">
+<div class="container pt-2">
+    <div class="row">
+        <div class="wb-explore-left
+        col-xl-2 col-lg-1 col-md-2 col-sm-2">
+            <div class="wb-explore-left-nav     nav list-group rounded-corners-all-around">
+                <a class="nav-link override-list list-group-item list-group-item-action " href="../home.html">
+                    <i class="fab fa-twitter"></i></a>
+                <a class="nav-link list-group-item list-group-item-action " href="../home.html">
+                    <i class="fas fa-home"></i>
+                    <span class="d-none d-xl-inline d-lg-none p-2">Home</span></a>
 
-            <div class="wb-search-bar">
-                <i class="fa fa-search"></i>
-                <input type="text"
+                <a class="nav-link list-group-item list-group-item-action  active" href="../explore/index.html">
+                    <i class="fas fa-lg fa-hashtag"></i>
+                    <span class="d-none d-xl-inline d-lg-none p-2">Explore</span> </a>
+
+                <a class="nav-link list-group-item list-group-item-action " href="#">
+                    <i class="fas fa-bell"></i>
+                    <span class="d-none d-xl-inline d-lg-none p-2">Notifications</span></a>
+
+                <a class="nav-link list-group-item list-group-item-action " href="#">
+                    <i class="fas fa-envelope d-inline-block"></i>
+                    <span class="d-none d-xl-inline d-lg-none p-2">Messages</span></a>
+
+                <a class="nav-link list-group-item list-group-item-action " href="../bookmarks/index.html">
+                    <i class="fas fa-bookmark d-inline-block"></i>
+                    <span class="d-none d-xl-inline d-lg-none p-2">Bookmarks</span></a>
+
+                <a class="nav-link list-group-item list-group-item-action " href="#">
+                    <i class="fas fa-list"></i>
+                    <span class="d-none d-xl-inline d-lg-none p-2">Lists</span></a>
+
+                <a class="nav-link list-group-item list-group-item-action " href="../profile.html">
+                    <i class="fas fa-user"></i>
+                    <span class="d-none d-xl-inline d-lg-none p-2"> Profile</span></a>
+
+                <a class="nav-link list-group-item list-group-item-action " href="#">
+                    <i class="fa-regular fa-circle-ellipsis"></i><i class="fas fa-ellipsis-h"></i>
+                    <span class="d-none d-xl-inline d-lg-none p-2"> More</span></a>
+            </div>
+            <a href="#" class="mt-2 btn btn-primary rounded-pill w-100  override-bg">Tweet</a>
+        </div>
+
+        <div class="wb-explore-middle
+        col-xl-6 col-lg-7 col-md-10 col-sm-10">
+
+            <div class="wb-explore-middle-search-bar    d-flex override-bar position-relative align-items-center">
+                <i class="fa fa-search position-absolute ps-4">
+                </i>
+                <input class="rounded-pill ps-5 form-control override-bar pe-auto"
+                       type="text"
                        placeholder="Search Tuiter">
+                <a href="explore-settings.html" class="ps-5 pe-2"><i class="fas fa-cog"></i></a>
             </div>
 
-            <div class="wb-search-bar-set">
-                <a href="explore-settings.html" class="set-icon">
-                    <i class="fa fa-cog" aria-hidden="true"></i></a>
-            </div>
-        </div>
-
-        <div class="float-done"></div>
-
-        <!--class="padded-top padded-bottom"-->
-        <div class="wb-nav-bar">
-            <!--class="padded-around font-color-blue rounded-corners-line boarder-bottom"-->
-            <a href="#" id="wb-for-you">For you</a>
-            <!--class="padded-around font-color-gray"-->
-            <a href="#">Trending</a>
-            <a href="#">COVID-19</a>
-            <a href="#">News</a>
-            <a href="#">Sports</a>
-            <a href="#">Entertainment</a>
-        </div>
-    </div>
-
-    <!--class="boarder-solid boarder-gray padded-around"-->
-    <div class="wb-thematic-break">
-        <br>
-    </div>
-
-    <!--class="boarder-solid boarder-gray padded-around"-->
-    <div class="wb-post">
-        <div class="wb-post-left">
-            <!--class="topic font-color-gray font-small"-->
-            <div class="wb-post-topic">
-                Trending in Science
+            <div class="wb-explore-middle-navbar-container      mt-2">
+                <ul class="nav nav-tabs override-bd">
+                    <li class="nav-item">
+                        <a class="nav-link active override-bt" href="for-you.html">
+                            For you</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link override-bt" href="trending.html">
+                            Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link override-bt" href="news.html">
+                            News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link override-bt" href="sports.html">
+                            Sports</a>
+                    </li>
+                    <li class="nav-item nav-end d-none d-sm-none d-md-block ">
+                        <a class="nav-link override-bt" href="entertainment.html">
+                            Entertainment</a>
+                    </li>
+                </ul>
             </div>
 
-            <!--class="title font-color-white"-->
-            <div class="wb-post-title">
-                Starship
-            </div>
-
-            <!--class="number-of-tuits font-color-gray font-small"-->
-            <div class="wb-post-tuits-number">
-                55.5k Tweets
-            </div>
-        </div>
-
-        <div class="wb-post-right">
-                <a href="#">···</a>
-        </div>
-    </div>
-
-    <!--class="boarder-solid boarder-none-top boarder-gray padded-around"-->
-    <div class="wb-post">
-        <div class="wb-post-left">
-            <!--class="topic font-color-gray font-small"-->
-            <div class="wb-post-topic">
-                Sports · Trending
-            </div>
-
-            <!--class="title font-color-white"-->
-            <div class="wb-post-title">
-                Job Rogan
-            </div>
-
-            <!--class="number-of-tuits font-color-gray font-small"-->
-            <div class="wb-post-tuits-number">
-                5,218 Tweets
-            </div>
-        </div>
-
-        <div class="wb-post-right">
-            <a href="#">···</a>
-        </div>
-    </div>
-
-    <!--class="boarder-solid boarder-none-top boarder-gray padded-around"-->
-    <div class="wb-post-photos">
-        <div class="float-left">
-
-            <!--class="wb-post3-author font-color-white font-middle"-->
-            <div class="wb-post-author">
-                <div class="wb-logo">
-                    <img src="nyt-logo.png">
+            <div class="wb-explore-middle-posts-container           pt-1">
+                <div class="wb-explore-middle-main-post             position-relative d-flex">
+                    <img src="../../images/space.jpg" alt="" class="mt-2 w-100">
+                    <span class="fa-2x text-white fw-bold bottom-0 position-absolute">SpaceX's Starship</span>
                 </div>
-                <div class="wb-author-name">
-                    <a href="#">The New York Times<i class="fa fa-check-square"></i></a>
 
-                    <span class="wb-yesterday">· Yesterday</span>
-                </div>
-            </div>
+                <div class="wb-explore-middle-posts                 list-group">
+                    <div class="list-group-item override-list list-group-item-action">
+                        <div class="row">
+                            <div class="col-xl-9 col-lg-9 col-md-8 col-sm-7">
+                                <div class="font-color-gray font-small">
+                                    Web Development
+                                </div>
+                                <div class="">
+                                    <Span class="font-middle fw-bold override-text">ReactJS</Span>
+                                    <i class="fas fa-check-circle p-1 override-text"></i>
+                                    <span class="font-color-gray font-small">- 2h</span>
+                                </div>
+                                <div class="font-middle fw-bold override-text">
+                                    React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs
+                                </div>
+                            </div>
 
-            <!--class="wb-post3-title font-color-white"-->
-            <div class="wb-post-title">
-                CNN's Cuomo conundrum: A star anchor with a brother in trouble
-            </div>
-        </div>
+                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                                <img class=" rounded-corners-all-around img-fluid " src="../../images/reactjs.png">
+                            </div>
+                        </div>
 
-        <div class="wb-right-picture">
-            <!--class="float-right rounded-corners-all-around image-size"-->
-            <img class="wb-picture" src="cnn.jpg">
-        </div>
+                    </div>
 
-        <div class="float-done"></div>
-    </div>
+                    <div class="list-group-item override-list list-group-item-action">
+                        <div class="row">
+                            <div class="col-xl-9 col-lg-9 col-md-8 col-sm-7">
 
-    <!--class="boarder-solid boarder-none-top boarder-gray padded-around"-->
-    <div class="wb-post-photos">
-        <div class="float-left">
+                                <div class="">
+                                    <Span class="font-middle fw-bold override-text">JavaScript</Span>
+                                    <i class="fas fa-check-circle p-1 override-text"></i>
+                                    <span class="font-color-gray font-small">- 2h</span>
+                                </div>
+                                <div class="font-middle fw-bold override-text">
+                                    JavaScript is programming language that can run on browsers as well as desktops
+                                </div>
+                            </div>
 
-            <!--class="topic font-color-gray font-small"-->
-            <div class="wb-post-topic">
-                COVID-19 · LIVE
-            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                                <img class=" rounded-corners-all-around img-fluid" src="../../images/js.jpg">
+                            </div>
+                        </div>
 
-            <!--class="wb-post-title font-color-white"-->
-            <div class="wb-post-title">
-                COVID-19: News and updates for Massachusetts
-            </div>
-        </div>
-        <div class="wb-right-picture">
-            <!--class="float-right rounded-corners-all-around image-size"-->
-            <img class="wb-picture" src="ma.jpg">
-        </div>
+                    </div>
+                    <div class="list-group-item override-list list-group-item-action">
+                        <div class="row">
+                            <div class="col-xl-9 col-lg-9 col-md-8 col-sm-7">
+                                <div class="font-color-gray font-small">
+                                    Web Development
+                                </div>
 
+                                <div class="override-text">
+                                    <Span class="font-middle fw-bold">jQuery</Span>
+                                </div>
 
-        <div class="float-done"></div>
-    </div>
+                                <div class="number-of-tuits font-color-gray font-small">
+                                    123k Tweets
+                                </div>
+                            </div>
 
-    <!--class="boarder-solid boarder-none-top boarder-gray padded-around"-->
-    <div class="wb-post-photos">
-        <div class="float-left">
+                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                                <img class=" rounded-corners-all-around img-fluid" src="../../images/jquery.jpg">
+                            </div>
+                        </div>
+                    </div>
 
-            <!--class="wb-post3-author font-color-white font-middle"-->
-            <div class="wb-post-author">
-                <div class="wb-logo">
-                    <img src="bloomberg-logo.jpg">
-                </div>
-                <div class="wb-author-name">
-                    <a href="#">Bloomberg Opinion<i class="fa fa-check-square"></i></a>
+                    <div class="list-group-item override-list list-group-item-action">
+                        <div class="row">
+                            <div class="col-xl-9 col-lg-9 col-md-8 col-sm-7">
+                                <div class="font-color-gray font-small">
+                                    Web Development
+                                </div>
 
-                    <span class="wb-yesterday">· Yesterday</span>
+                                <div class="override-text">
+                                    <Span class="font-middle fw-bold">NodeJS</Span>
+                                    <i class="fas fa-check-circle p-1 override-text"></i>
+                                    <span class="font-color-gray font-small">- 2h</span>
+                                </div>
+
+                                <div class="number-of-tuits font-color-gray font-small">
+                                    123k Tweets
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                                <img class=" rounded-corners-all-around img-fluid" src="../../images/nodejs.jpg">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
 
-            <!--class="wb-post-title font-color-white"-->
-            <div class="wb-post-title">
-                Thinking about getting a booster? Read this first.
+        <div class="wb-explore-right
+        col-xl-4 col-lg-4 d-none d-lg-block d-md-none">
+            <div class="wb-explore-right-follow-list        list-group">
+                <div class="list-group-item override-bg-gray list-group-item-action fw-bold">
+                    <div class="wb-explore-right-follow-list-title          override-text">
+                        Who to follow
+                    </div>
+                </div>
+
+                <div class="wb-explore-right-follow
+                list-group-item override-bg-gray list-group-item-action">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2">
+                            <img src="../../images/java.png" alt="" class="rounded-circle img-size">
+                        </div>
+
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="text-nowrap override-text">
+                                <Span class="font-middle fw-bold">Java</Span>
+                                <i class="fas fa-check-circle p-1 "></i>
+                            </div>
+                            <div class="font-color-gray font-small">
+                                @Java
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-3 my-auto">
+                            <a class="btn pull-right btn-primary rounded-pill override-bt">Follow</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wb-explore-right-follow
+                list-group-item override-bg-gray list-group-item-action">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2">
+                            <img src="../../images/relativity.jpg" alt="" class="rounded-circle img-size">
+                        </div>
+
+                        <div class="col-xl-8 col-lg-7 zindex-bring-to-front">
+                            <div class="text-nowrap override-text">
+                                <Span class="font-middle fw-bold">Relativity Space</Span>
+                                <i class="fas fa-check-circle p-1 "></i>
+                            </div>
+                            <div class="font-color-gray font-small">
+                                @relativityspace
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-3 my-auto">
+                            <a class="btn pull-right btn-primary rounded-pill override-bt">Follow</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wb-explore-right-follow
+                list-group-item override-bg-gray list-group-item-action">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2">
+                            <img src="../../images/virgin.svg" alt="" class="rounded-circle img-size">
+                        </div>
+
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="text-nowrap override-text">
+                                <Span class="font-middle fw-bold">Virgin Galactic</Span>
+                                <i class="fas fa-check-circle p-1"></i>
+                            </div>
+                            <div class="font-color-gray font-small">
+                                @virgingalactic
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-3 my-auto">
+                            <a class="btn pull-right btn-primary rounded-pill override-bt">Follow</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wb-explore-right-follow
+                list-group-item override-bg-gray list-group-item-action">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2">
+                            <img src="../../images/nasa.png" alt="" class="rounded-circle img-size">
+                        </div>
+
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="text-nowrap override-text">
+                                <Span class="font-middle fw-bold">NASA</Span>
+                                <i class="fas fa-check-circle p-1 "></i>
+                            </div>
+                            <div class="font-color-gray font-small">
+                                @NASA
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-3 my-auto">
+                            <a class="btn pull-right btn-primary rounded-pill override-bt">Follow</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wb-explore-right-follow
+                list-group-item override-bg-gray list-group-item-action">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2">
+                            <img src="../../images/tesla.jpg" alt="" class="rounded-circle img-size">
+                        </div>
+
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="text-nowrap override-text">
+                                <Span class="font-middle fw-bold">Tesla</Span>
+                                <i class="fas fa-check-circle p-1"></i>
+                            </div>
+                            <div class="font-color-gray font-small">
+                                @Tesla
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-3 my-auto">
+                            <a class="btn pull-right btn-primary rounded-pill override-bt">Follow</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="wb-right-picture">
-            <!--class="float-right rounded-corners-all-around image-size"-->
-            <img class="wb-picture" src="booster.jpg">
-        </div>
-        <div class="float-done"></div>
     </div>
-
-    <!--class="boarder-solid boarder-none-top boarder-gray padded-around"-->
-    <div class="wb-post">
-        <div class="wb-post-left">
-            <!--class="topic font-color-gray font-small"-->
-            <div class="wb-post-topic">
-                Trending in United States
-            </div>
-
-            <!--class="wb-post-title font-color-white"-->
-            <div class="wb-post-title">
-                Wonder Bread
-            </div>
-
-            <!--class="number-of-tuits font-color-gray font-small"-->
-            <div class="wb-post-tuits-number">
-                1,259 Tweets
-            </div>
-        </div>
-
-        <div class="wb-post-right">
-            <a href="#">···</a>
-        </div>
-    </div>
-
-    <div class="float-done"></div>
 </div>
+
 
 </body>
 </html>
