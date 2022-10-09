@@ -383,7 +383,7 @@ ul.override-bd{
     background-color:black;
 }
 .list-group > div.override-bg-gray{
-    background-color:black;
+    background-color: #28282a;
 }
 
 div.override-bar{
@@ -404,10 +404,21 @@ div.override-bar > a > i:hover{
 }
 
 div.override-bar > input{
-    background:#202327 10%;
+    background:#28282a 10%;
     color:white;
-    border-color:#202327;
+    border-color:#28282a;
     outline:none;
+}
+
+.nav > a.active.override-list{
+    border-color:black;
+    font-weight: bolder;
+}
+
+.btn-primary.override-bt{
+    background-color: white;
+    color:black;
+    border-color: black;
 }
 
 .wb-explore-middle-navbar-container{
@@ -422,16 +433,4 @@ div.override-bar > input{
 .wb-explore-middle-main-post{
     border-bottom:1px solid gray;
 }
-
-.nav > a.active.override-list{
-    border-color:black;
-    font-weight: bolder;
-}
-
-.btn-primary.override-bt{
-    background-color: white;
-    color:black;
-    border-color: black;
-}
-
 
