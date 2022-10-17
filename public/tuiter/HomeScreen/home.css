@@ -1,0 +1,62 @@
+.padded-top-left{
+    padding-top: 12px;
+    padding-left: 16px;
+}
+
+.padded-left{
+    padding-left: 16px;
+}
+body{
+    background-color:black;
+}
+.bg-color-dark-gray{
+    background-color: darkgray;
+}
+.font-color-white{
+    color: white;
+}
+
+.font-color-lightgray{
+    color: lightgray;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.font-size-15{
+    font-size: 15px;
+}
+.font-size-13{
+    font-size: 13px;
+}
+
+.boarder-solid{
+    border:1px solid lightgray;
+}
+
+.rounded-corners-all-around {
+    border-radius: 20px;
+}
+
+
+
+div.list-group.center{
+    border-radius: 20px;
+}
+div.list-group-item.center{
+    background-color: black;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+}
+div.list-group.center > .list-group-item{
+    background-color: black;
+}
+div.list-group > .image.list-group-item{
+    padding: 0;
+    overflow: auto;
+}
+
+.icon-space{
+    padding-left: 12px;
+}
+
