@@ -1,22 +1,23 @@
 .wb-border {
     background-color:black;
-    border:1px solid #656060;
+    border:1px solid rgb(47, 51, 54);
+    padding: 5px 12px 35px 16px;
 }
 
 .wb-bookmarks-border {
-    border:1px solid #656060;
+    border:1px solid rgb(47, 51, 54);
     padding-bottom: 12px;
 }
 
 .wb-bookmarks {
     float:left;
-    padding-left: 2.5%;
+    padding-left: 16px;
+    padding-top: 12px;
 }
 
 .wb-title {
     color: white;
     font-size: 20px;
-
 }
 
 .wb-title-user {
@@ -36,8 +37,8 @@
 }
 
 .wb-more-option a:hover {
-    color: #09bff1;
-    font-size: 23px;
+    color: white;
+    font-size: 21px;
     text-decoration: none;
     padding-right: 40px;
 }
@@ -49,35 +50,9 @@
 }
 
 .wb-user-border {
-    padding-top: 12px;
     padding-left: 16px;
     background-color:black;
-}
-
-.wb-user-CBD {
-    float:left;
-    padding-left: 2.5%;
-    color:white;
-    font-size: 15px;
-}
-
-.wb-more-option2 {
-    float:right;
-    padding-top: 4px;
-}
-
-.wb-more-option2 a{
-    color: #766565;
-    font-size: 17px;
-    text-decoration: none;
-    padding-right: 40px;
-}
-
-.wb-more-option2 a:hover {
-    color: #766565;
-    font-size: 20px;
-    text-decoration: none;
-    padding-right: 40px;
+    border:1px solid rgb(47, 51, 54);
 }
 
 .wb-profile-photo-border {
@@ -85,19 +60,44 @@
 }
 
 .wb-profile-photo {
-    border-radius: 50%;
+    padding-top: 12px;
+    border-radius: 45%;
     height: 48px;
     width: 48px;
-    padding-right:5%;
+}
+
+.wb-more-option2 {
+    position:relative;
+    float: right;
+    padding-top: 12px;
+    text-decoration: none;
+    color: gray;
+    padding-right: 24px;
+    font-size: 17px;
+}
+
+
+.wb-more-option2:hover {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.wb-user-CBD {
+    float:left;
+    color:white;
+    font-size: 15px;
+    margin-top: 0;
 }
 
 .wb-user {
     padding-bottom:12px;
-    max-width:91%;
-    padding-left:5%;
+    max-width:506px;
+    padding-left:16px;
+    padding-top: 12px;
 }
 
-.wb-user-comment {
+.wb-user-name-and-comment {
     font-size:15px;
     color: white;
 }
@@ -107,10 +107,16 @@
 }
 
 .wb-user-post {
-    max-width:95%;
-    border:1px solid lightgray;
+    max-width:506px;
     border-radius: 20px;
     margin-bottom: 12px;
+    padding-left: 16px;
+}
+
+.wb-user-photo {
+    border:1px solid #545252;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .wb-user-post-photo {
@@ -123,6 +129,10 @@
 .wb-user-post-content {
     font-size: 15px;
     padding: 12px;
+    border:1px solid #545252;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: none;
 }
 
 .wb-user-post-author {
@@ -142,8 +152,8 @@
 }
 
 .link:hover {
-    color: #737171;
-    font-size: 16px;
+    color: white;
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -158,6 +168,11 @@
     color: #5e5c5c;
     font-size: 15px;
     text-decoration: none;
+    padding-left: 16px;
+}
+
+.wb-icon-space {
+    padding-left: 12px;
 }
 
 .links:hover {
@@ -174,7 +189,7 @@
 }
 
 .links-like:hover {
-    color: #e3127b;
+    color: red;
     font-size: 15px;
     text-decoration: none;
 }
@@ -193,184 +208,3 @@
     width: 504px;
     height: 264px;
 }
-
-
-
-
-
-
-/*.padded-top-left{*/
-/*    padding-top: 12px;*/
-/*    padding-left: 16px;*/
-/*}*/
-
-/*.padded-left{*/
-/*    padding-left: 16px;*/
-/*}*/
-/*.bg-color-black{*/
-/*    background-color:black;*/
-/*}*/
-/*.bg-color-dark-gray{*/
-/*    background-color: darkgray;*/
-/*}*/
-/*.font-color-white{*/
-/*    color: white;*/
-/*}*/
-
-/*.font-color-lightgray{*/
-/*    color: lightgray;*/
-/*}*/
-/*.font-size-20{*/
-/*    font-size: 20px;*/
-/*}*/
-/*.font-size-15{*/
-/*    font-size: 15px;*/
-/*}*/
-/*.font-size-13{*/
-/*    font-size: 13px;*/
-/*}*/
-
-/*.boarder-solid{*/
-/*    border:1px solid lightgray;*/
-/*}*/
-
-/*.rounded-corners-all-around {*/
-/*    border-radius: 50%;*/
-/*    height: 48px;*/
-/*    width: 48px;*/
-/*}*/
-
-/*.float-left{*/
-/*    float:left;*/
-/*}*/
-
-/*.width-limit{*/
-/*    max-width:95%;*/
-/*}*/
-/*.padded-right{*/
-/*    padding-right: 16px;*/
-/*}*/
-/*.padded-bottom{*/
-/*    padding-bottom: 12px;*/
-/*}*/
-
-
-
-/*.rounded-corners-top{*/
-/*    border-top-left-radius: 20px;*/
-/*    border-top-right-radius: 20px;*/
-/*}*/
-
-/*.rounded-corners-bottom{*/
-/*    border-bottom-left-radius: 20px;*/
-/*    border-bottom-right-radius: 20px;*/
-/*}*/
-
-/*.font-bold{*/
-/*    font-weight: bold;*/
-/*}*/
-
-/*.padded-all-around{*/
-/*    padding: 12px;*/
-/*}*/
-
-/*.margin-bottom{*/
-/*    margin-bottom: 12px;*/
-/*}*/
-
-/*.flex-container {*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*}*/
-/*.icon-space{*/
-/*    padding-left: 12px;*/
-/*}*/
-
-
-
-
-
-
-
-/*.wb-search-nav-bar{*/
-/*    background-color:black;*/
-/*    color:gray;*/
-/*}*/
-/*.wb-search-nav-bar-container{*/
-/*    border:1px solid;*/
-/*    color:gray;*/
-/*    font-size: 15px;*/
-/*}*/
-
-/*.wb-search-bar {*/
-/*    padding-left: 16px;*/
-/*}*/
-
-/*.wb-search-bar i {*/
-/*    position: absolute;*/
-/*    font-size:15px;*/
-/*    float: left;*/
-/*    margin-top: 18px;*/
-/*    margin-left: 14px;*/
-/*}*/
-
-/*.wb-search-bar-input {*/
-/*    background-color: #2d2c2c;*/
-/*    color: white;*/
-/*    float: left;*/
-/*    padding: 0.5%;*/
-/*    border-radius: 26px;*/
-/*    border-color: black;*/
-/*    margin-top: 8px;*/
-/*    margin-right: 16px;*/
-/*    font-size: 17px;*/
-/*    width: 90%;*/
-/*}*/
-
-/*.set-icon {*/
-/*    position: absolute;*/
-/*    font-size:20px;*/
-/*    float: right;*/
-/*    top: 7px;*/
-/*    margin-right: 2%;*/
-/*    color: #09bff1;*/
-/*}*/
-
-/*.float-done {*/
-/*    clear: both;*/
-/*}*/
-
-/*.wb-nav-bar {*/
-/*    padding-top: 16px;*/
-/*    padding-bottom: 16px;*/
-/*}*/
-
-/*.padded-around{*/
-/*    padding:16px;*/
-/*}*/
-
-/*.wb-thematic-break {*/
-/*    border-top: 3px solid;*/
-/*    border-bottom: 2px solid;*/
-/*    color:gray;*/
-/*    background-color: #2d2c2c;*/
-/*}*/
-
-/*.wb-post {*/
-/*    border:1px solid;*/
-/*    color:gray;*/
-/*    padding:16px;*/
-/*}*/
-
-/*.wb-post-topic {*/
-/*    color: rgb(110, 118, 125);*/
-/*    font-size: 13px;*/
-/*}*/
-
-
-
-/*.wb-post-tuits-number {*/
-/*    color: gray;*/
-/*    font-size: 13px;*/
-/*}*/
-
