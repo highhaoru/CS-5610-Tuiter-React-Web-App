@@ -79,7 +79,8 @@ const NavigationSidebar = ( {
                 </a>
 
                 <a className={`nav-link override-list list-group-item list-group-item-action 
-                ${active === 'more' ? 'active' : ''}`} href="#">
+                ${active === 'more' ? 'active' : ''}`}
+                   href="/tuiter">
                     <i className="fa-regular fa-circle-ellipsis"></i>
                     <i className="fas fa-ellipsis-h"></i>
                     <span className="d-none d-xl-inline d-lg-none p-2">
