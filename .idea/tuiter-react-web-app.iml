@@ -8,5 +8,6 @@
     <orderEntry type="library" name="font-awesome" level="application" />
     <orderEntry type="library" name="bda43205a7" level="application" />
     <orderEntry type="library" name="9eae3ace91" level="application" />
+    <orderEntry type="library" name="jquery-3.3.1" level="application" />
   </component>
 </module>

@@ -1,49 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import './vendors/bootstrap/css/bootstrap.min.css';
+import './vendors/bootstrap/bootstrap.min.css';
+import './vendors/fontawesome/css/all.min.css';
+import HelloWorld from './labs/a6/hello-world';
 import Labs from "./labs";
-import HelloWorld from "./labs/a6/hello-world";
+import HomeScreen from "./tuiter/HomeScreen/HomeScreen";
+import ExploreScreen from "./tuiter/ExploreScreen";
 import Tuiter from "./tuiter";
 import {BrowserRouter} from "react-router-dom";
 import {Routes, Route} from "react-router";
 
 function App() {
-  // return (
-  //   <div className="App">
-  //     <header className="App-header">
-  //       <img src={logo} className="App-logo" alt="logo" />
-  //       <h1>
-  //         Edit <code>src/App.js</code> and save to reload.
-  //       </h1>
-  //       <h2>
-  //         This is brach for assignment 2
-  //       </h2>
-  //       <a
-  //         className="App-link"
-  //         href="https://reactjs.org"
-  //         target="_blank"
-  //         rel="noopener noreferrer"
-  //       >
-  //         Learn React
-  //       </a>
-  //     </header>
-  //   </div>
-  return (
-      <BrowserRouter>
-        <div className="container">
-          <Routes>
-            <Route path="/labs"
-                   element={<Labs/>}/>
-            <Route path="/hello"
-                   element={<HelloWorld/>}/>
-            <Route path="/tuiter"
-                   element={<Tuiter/>}/>
-          </Routes>
-
-        </div>
-      </BrowserRouter>
-
-  );
-
+    return (
+        <BrowserRouter>
+            <div className="container">
+                <Routes>
+                    <Route index element={<Labs/>}/>
+                    <Route path="/hello" element={<HelloWorld/>}/>
+                    <Route path="/tuiter/*" element={<Tuiter/>}/>
+                    <Route path="/tuiter/home" element={<HomeScreen/>}/>
+                    <Route path="/tuiter/explore" element={<ExploreScreen/>}/>
+                </Routes>
+            </div>
+        </BrowserRouter>
+    );
 }
 
 export default App;
