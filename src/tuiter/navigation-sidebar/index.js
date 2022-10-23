@@ -10,7 +10,7 @@ const NavigationSidebar = ( {
             <div className="list-group">
                 <Link to="/"
                       className="nav-link override-list list-group-item list-group-item-action"
-                      href="#"><i className="fab fa-twitter"></i>
+                      href="/tuiter"><i className="fab fa-twitter"></i>
                 </Link>
 
                 <Link to="/tuiter/home"
@@ -35,7 +35,7 @@ const NavigationSidebar = ( {
 
                 <a className={`nav-link override-list list-group-item list-group-item-action 
                 ${active === 'notifications' ? 'active' : ''}`}
-                   href="#">
+                   href="/tuiter">
                     <i className="fas fa-bell"></i>
                     <span className="d-none d-xl-inline d-lg-none p-2">
                         Notifications
@@ -44,7 +44,7 @@ const NavigationSidebar = ( {
 
                 <a className={`nav-link override-list list-group-item list-group-item-action 
                 ${active === 'messages' ? 'active' : ''}`}
-                   href="#">
+                   href="/tuiter">
                     <i className="fas fa-envelope d-inline-block"></i>
                     <span className="d-none d-xl-inline d-lg-none p-2">
                         Messages
@@ -53,7 +53,7 @@ const NavigationSidebar = ( {
 
                 <a className={`nav-link override-list list-group-item list-group-item-action 
                 ${active === 'bookmarks' ? 'active' : ''}`}
-                   href="#">
+                   href="/tuiter">
                     <i className="fas fa-bookmark d-inline-block"></i>
                     <span className="d-none d-xl-inline d-lg-none p-2">
                         Bookmarks
@@ -62,7 +62,7 @@ const NavigationSidebar = ( {
 
                 <a className={`nav-link override-list list-group-item list-group-item-action 
                 ${active === 'lists' ? 'active' : ''}`}
-                   href="#">
+                   href="/tuiter">
                     <i className="fas fa-list"></i>
                     <span className="d-none d-xl-inline d-lg-none p-2">
                         Lists

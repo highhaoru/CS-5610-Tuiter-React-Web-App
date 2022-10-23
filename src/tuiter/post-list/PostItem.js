@@ -8,7 +8,7 @@ const PostItem = ({post =
     <div className="list-group-item center">
         <div className="row pt-2">
             <div className="col-1">
-                <img src={post.profile} className="img-fluid rounded-circle"/>
+                <img src={post.profile} className="img-fluid rounded-circle" alt={"postprofile"}/>
             </div>
             <div className="col-11">
                 <div className="d-flex  position-relative">
@@ -20,7 +20,7 @@ const PostItem = ({post =
                 </div>
                 <div className="list-group center">
                     <div className="list-group-item overflow-auto p-0">
-                        <img src={post.image} className="img-fluid"/>
+                        <img src={post.image} className="img-fluid" alt={"postimage"}/>
                     </div>
                    
                     <div className={`list-group-item ${post.content ?  '': 'd-none'}`}><div className="font-color-white font-bold">{post.title}</div><div className="text-secondary">{post.content}</div></div>
