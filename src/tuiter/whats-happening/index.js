@@ -17,6 +17,7 @@ const WhatsHappening = () => {
                 <tr>
                     <td style={{verticalAlign: 'top'}}>
                         <img src={'/images/hao.jpg'}
+                             alt={"avatarImage"}
                              className="rounded-circle"
                              style={{width: '48px', margin: '16px'}}/>
                     </td>

@@ -21,7 +21,7 @@ const tuitsReducer = (state = tuits,action) => {
         case 'delete-tuit':
             return state.filter(
                 tuit => tuit._id !== action.tuit._id);
-            break;
+            // break;
         case 'create-tuit':
             const newTuit = {
                 tuit: action.tuit,
@@ -39,7 +39,7 @@ const tuitsReducer = (state = tuits,action) => {
                 newTuit,
                 ...state,
             ];
-            break;
+            // break;
         default:
             return tuits
     }
