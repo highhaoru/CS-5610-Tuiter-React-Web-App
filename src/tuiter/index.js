@@ -1,5 +1,4 @@
 import React from "react";
-import {Outlet} from "react-router-dom";
 import {Routes, Route} from "react-router";
 import whoReducer from "./reducers/who-reducer";
 import tuitsReducer from "./reducers/tuits-reducer";
@@ -11,8 +10,6 @@ import WhoToFollowList from "./WhoToFollowList";
 import HomeScreen from "./HomeScreen";
 import ExploreComponent from "./ExploreScreen/ExploreComponent";
 import ProfileScreen from "./ProfileScreen";
-import ProfileComponent from "./ProfileScreen/ProfileComponent";
-import EditProfileComponent from "./ProfileScreen/EditProfileComponent";
 
 const reducers = combineReducers({
     tuits: tuitsReducer, who: whoReducer, profile: profileReducer
@@ -31,18 +28,12 @@ const Tuiter = () => {
                         <Route path="home"    element={<HomeScreen/>}/>
                         <Route path="explore" element={<ExploreComponent/>}/>
                         <Route path="profile" element={<ProfileScreen/>}/>
-                        {/*<Route path="edit-profile" element={<EditProfileComponent/>}/>*/}
                     </Routes>
                 </div>
                 <div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
                     <WhoToFollowList/>
                 </div>
             </div>
-            {/*<div className="row">*/}
-            {/*    <div>*/}
-            {/*        <Outlet/>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
         </Provider>
     );
 };

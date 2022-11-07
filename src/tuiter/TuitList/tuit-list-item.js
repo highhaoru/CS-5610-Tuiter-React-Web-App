@@ -13,7 +13,7 @@ const TuitListItem = ({tuit}) => {
             <div className="list-group-item center">
                 <div className="row pt-2">
                     <div className="col-1">
-                        <img src={tuit["avatar-image"]} className="img-fluid rounded-circle"/>
+                        <img src={tuit["avatar-image"]} className="img-fluid rounded-circle" alt={"postimage"}/>
                     </div>
                     <div className="col-11">
                         <div className="">
@@ -26,7 +26,7 @@ const TuitListItem = ({tuit}) => {
                         </div>
                         <div className="list-group center">
                             <div className="list-group-item overflow-auto p-0">
-                                <img src={tuit["logo-image"]} className="img-fluid"/>
+                                <img src={tuit["logo-image"]} className="img-fluid" alt={"postimage"}/>
                             </div>
 
                             <div className={`list-group-item ${tuit.content ?  '': 'd-none'}`}><div className="font-color-white font-bold">{tuit.title}</div><div className="text-secondary">{tuit.content}</div></div>

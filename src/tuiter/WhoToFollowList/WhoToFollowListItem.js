@@ -24,7 +24,7 @@ return(
                     </div>
 
                     <div className="col-xl-3 col-lg-4 my-auto">
-                        <a className="btn btn-primary rounded-pill override-bt">Follow</a>
+                        <a href="/" className="btn btn-primary rounded-pill override-bt">Follow</a>
                     </div>
                 </div>
     </div>

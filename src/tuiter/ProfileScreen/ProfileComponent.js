@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import {Link} from "react-router-dom"
 
 
@@ -15,8 +15,8 @@ const ProfileComponent = (
                 </div>
             </div>
             <div className="row position-relative">
-                <img src={profile.bannerPicture} className="img-fluid" style={{height:"300px"}}/>
-                <img src={profile.profilePicture} className="img-fluid col-3 col-sm-4 ms-4 rounded-circle position-absolute" style={{bottom:"-50px"}}/>
+                <img src={profile.bannerPicture} className="img-fluid" style={{height:"300px"}} alt={"postimage"}/>
+                <img src={profile.profilePicture} className="img-fluid col-3 col-sm-4 ms-4 rounded-circle position-absolute" style={{bottom:"-50px"}} alt={"postimage"}/>
                 <div className="col-8"></div>
                 <button onClick={() => setEditProfile(true)} className="col-3 mt-2 btn btn-primary rounded-pill bg-black border-white">Edit Profile</button>
             </div>

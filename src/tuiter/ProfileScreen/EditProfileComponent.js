@@ -30,8 +30,8 @@ const EditProfileComponent = ({profile, setEditProfile}) => {
                 </button>
             </div>
             <div className="row position-relative mt-2">
-                <img src={profile.bannerPicture} className="img-fluid" style={{height:"300px"}}/>
-                <img src={profile.profilePicture} className="img-fluid col-lg-3 col-sm-4 ms-4 rounded-circle position-absolute" style={{bottom:"-50px"}}/>
+                <img src={profile.bannerPicture} className="img-fluid" style={{height:"300px"}} alt={"postimage"}/>
+                <img src={profile.profilePicture} className="img-fluid col-lg-3 col-sm-4 ms-4 rounded-circle position-absolute" style={{bottom:"-50px"}} alt={"postimage"}/>
                 <div className="col-8"></div>
             </div>
             <div className="row pt-5 mt-2"/>
