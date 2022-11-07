@@ -1,7 +1,7 @@
 import React from "react";
 // import posts from "./posts.json";
 // import PostItem from "./post-item";
-import TuitsList from "../tuits/tuits-list";
+import TuitsList from "../tuits/tuits-list-item";
 import WhatsHappening from "./whats-happening";
 
 const HomeComponent = () => {

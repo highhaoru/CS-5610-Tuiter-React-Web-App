@@ -17,7 +17,9 @@ const PostSummaryItem = ({post = {
                             {post.topic}
                         </div>
                         <div className="d-inline">
-                            <span className="font-middle fw-bold override-text">{post.userName}</span><i className="fas fa-check-circle p-1 override-text"></i><span className="font-color-gray font-small">- {post.time}</span>
+                            <span className="font-middle fw-bold override-text">{post.userName}</span>
+                            <i className="fas fa-check-circle p-1 override-text"></i>
+                            <span className="font-color-gray font-small">- {post.time}</span>
                         </div>
                         <div className="font-middle fw-bold override-text">
                             {post.title}
