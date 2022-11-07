@@ -1,19 +1,25 @@
 import React from "react";
-// import posts from "./posts.json";
-// import PostItem from "./post-item";
-import TuitsList from "../tuits/tuits-list-item";
-import WhatsHappening from "./whats-happening";
+import NavigationSidebar from "../NavigationSidebar";
+import WhoToFollowList from "../WhoToFollowList";
+import TuitList from "../TuitList";
+import WhatsHappening from "../whats-happening";
 
-const HomeComponent = () => {
+const HomeScreen = () => {
     return(
-        <>
-            <h4>Home</h4>
-            <WhatsHappening/>
-            <TuitsList/>
-        </>
-        // <ul className="list-group">
-        //     {posts.map(post => <PostItem post={post}/> )}
-        // </ul>
-    );
-};
-export default HomeComponent;
+        <div className="row mt-2">
+            <div className="col-2 col-md-2 col-lg-1 col-xl-2">
+                <NavigationSidebar active="home"/>
+            </div>
+            <div className="col-10 col-md-10 col-lg-7 col-xl-6"
+                 style={{"position": "relative"}}>
+                <WhatsHappening/>
+                <TuitList/>
+            </div>
+            <div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
+                <WhoToFollowList/>
+            </div>
+        </div>
+    )
+}
+
+export default HomeScreen;

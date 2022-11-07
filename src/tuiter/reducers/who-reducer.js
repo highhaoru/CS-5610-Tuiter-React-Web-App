@@ -1,9 +1,8 @@
-import { createSlice } from "@reduxjs/toolkit";
-import whoArray from "../data/who.json";
+import whoJson from '../data/who.json';
 
-const whoSlice = createSlice({
-    name: "who",
-    initialState: whoArray
-});
+const whoReducer = (state = whoJson) => {
+    return(state);
+};
 
-export default whoSlice.reducer;
+export default whoReducer;
+
