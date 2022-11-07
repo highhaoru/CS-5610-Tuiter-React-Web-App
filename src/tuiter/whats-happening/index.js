@@ -38,7 +38,7 @@ const WhatsHappening = () => {
                             <a href="/"><i className="far fa-calendar me-3"></i></a>
                         </span>
                         <button onClick={tuitClickHandler} className="btn btn-primary fa-pull-right rounded-pill">
-                            Tweet
+                            Tuit
                         </button>
                     </td>
                 </tr>
