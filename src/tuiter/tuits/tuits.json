@@ -1,0 +1,45 @@
+[
+  {
+    "_id": 1,
+    "topic": "Space",
+    "avatar": "spacex.jpeg",
+    "userName": "SpaceX",
+    "handle": "spacex",
+    "time": "2h",
+    "abstract": "You want to wake up in the morning and think the future is going to be great - and that's what being a spacefaring civilization is all about.",
+    "content": "You want to wake up in the morning and think the future is going to be great - and that's what being a spacefaring civilization is all about. It's about believing in the future and thinking that the future will be better than the past. And I can't think of anything more exciting than going out there and being among the stars.",
+    "liked": true,
+    "comments": "4.2K",
+    "retuit": "3.5K",
+    "likes": "37.5K"
+  },
+  {
+    "_id": 2,
+    "topic": "Autopilot",
+    "avatar": "tesla.png",
+    "userName": "Tesla",
+    "handle": "tesla",
+    "time": "4d",
+    "abstract": "Autopilot is an advanced driver assistance system that assists your car with steering, accelerating and braking for other vehicles and pedestrians within its lane.",
+    "content": "Autopilot is an advanced driver assistance system that assists your car with steering, accelerating and braking for other vehicles and pedestrians within its lane. It assists with the most burdensome parts of driving and work alongside features like emergency braking, collision warning and blind-spot monitoring. With Full Self-Driving (FSD) capability, you will get access to a suite of more advanced driver assistance features, designed to provide more active guidance and assisted driving under your active supervision.",
+    "liked": false,
+    "comments": "954",
+    "retuit": "2.4K",
+    "likes": "4K"
+  },
+  {
+    "_id": 3,
+    "topic": "Tesla Cybertruck",
+    "avatar": "spacex.jpeg",
+    "userName": "SpaceX",
+    "handle": "spacex",
+    "time": "2h",
+    "abstract": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6's bed.",
+    "content": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6's bed. Cybertruck is built with an exterior shell made for ultimate durability and passenger protection. Starting with a nearly impenetrable exoskeleton, every component is designed for superior strength and endurance, form Ulta-Hard 30X Cold-Rolled stainless-steel structural skin to Tesla armor glass. Cybertruck is built with en exterior shell made of ultimate durability and passenger protection. Starting with a nearly impenetrable exoskeleton, every component is designed for superior strength and endurance, from Ultra-Hard 30X Cold-Rolled stainless-steel structural skin to Tesla armor glass.",
+    "liked": true,
+    "comments": "4K",
+    "retuit": "4K",
+    "likes": "35.5K"
+  }
+]
+
