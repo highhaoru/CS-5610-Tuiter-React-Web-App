@@ -13,7 +13,8 @@ const EditProfile = () => {
     const dispatch = useDispatch();
     const saveClickHandler = () => {dispatch(changeProfile(profile));}
     const firstNameInputHandler = (event) => {
-        const newFirst = {...profile, firstName: event.target.value, handle: event.target.value.toLowerCase()};
+        const newFirst = {...profile, firstName: event.target.value,
+            handle: event.target.value.toLowerCase()};
         console.log(newFirst);
         setProfile(newFirst);
     }
@@ -52,12 +53,14 @@ const EditProfile = () => {
 
             <form className="end-0">
                 <div className="form-group row m-2">
-                    <label htmlFor="firstNameInput" className="col-3 col-form-label">First name</label>
+                    <label htmlFor="firstNameInput"
+                           className="col-3 col-form-label">First name</label>
                     <div className="col-3">
                         <textarea className="form-control" id="firstNameInput" rows="1"
                                   onChange={firstNameInputHandler}>{me.firstName}</textarea>
                     </div>
-                    <label htmlFor="lastNameInput" className="col-3 col-form-label">Last name</label>
+                    <label htmlFor="lastNameInput"
+                           className="col-3 col-form-label">Last name</label>
                     <div className="col-3">
                         <textarea className="form-control" id="lastNameInput" rows="1"
                                   onChange={lastNameInputHandler}>{me.lastName}</textarea>
@@ -85,7 +88,8 @@ const EditProfile = () => {
                     </div>
                 </div>
                 <div className="form-group row m-2">
-                    <label htmlFor="birthInput" className="col-3 col-form-label">Date of Birth</label>
+                    <label htmlFor="birthInput"
+                           className="col-3 col-form-label">Date of Birth</label>
                     <div className="col-9">
                         <input type="date" className="form-control" id="birthInput"
                                onChange={birthInputHandler}></input>

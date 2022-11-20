@@ -14,7 +14,8 @@ import profileReducer from "./profile/profile-reducer";
 import {configureStore} from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
 
-const store = configureStore({reducer: {who: whoReducer, tuitsData: tuitsReducer, profile: profileReducer}});
+const store = configureStore({reducer: {who: whoReducer,
+        tuitsData: tuitsReducer, profile: profileReducer}});
 
 function Tuiter() {
     return (
@@ -23,7 +24,8 @@ function Tuiter() {
                 <div className="col-2 col-md-2 col-lg-1 col-xl-2">
                     <NavigationSidebar active="explore"/>
                 </div>
-                <div className="col-10 col-md-10 col-lg-7 col-xl-6" style={{"position": "relative"}}>
+                <div className="col-10 col-md-10 col-lg-7 col-xl-6"
+                     style={{"position": "relative"}}>
                     <Routes>
                         <Route path="home"    element={<HomeComponent/>}/>
                         <Route path="explore" element={<ExploreComponent/>}/>

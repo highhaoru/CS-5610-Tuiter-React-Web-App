@@ -6,13 +6,13 @@ const profile = {
     "handle": "hao",
     "avatar": "hao.jpg",
     "banner": "banner.jpg",
-    "bio": "Computer Science, Graduate student of Northeastern University",
+    "bio": "Master of Science in Computer Science, Graduate student of Northeastern University",
     "website": 'youtube.com/webdevtv',
     "location": "Boston, MA",
     "dateOfBirth": "1996-05-04",
     "dateJoined": "2022-01",
-    "followingCount": 340,
-    "followersCount": 223
+    "followingCount": 345,
+    "followersCount": 233
 }
 
 const profileSlice = createSlice({

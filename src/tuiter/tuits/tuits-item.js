@@ -12,12 +12,15 @@ const TuitsItem = ({tuit}) => {
         <li className="list-group-item">
             <div className="row">
                 <div className="col-2">
-                    <img src={`/images/${tuit.image}`} className="rounded-circle mt-3 w-100" alt={"avatar"}/>
+                    <img src={`/images/${tuit.image}`}
+                         className="rounded-circle mt-3 w-100" alt={"avatar"}/>
                 </div>
                 <div className="col-10 p-2">
-                    <b>{tuit.username}</b><i className="bi bi-patch-check-fill text-primary ps-1"></i>
+                    <b>{tuit.username}</b><i
+                    className="bi bi-patch-check-fill text-primary ps-1"></i>
                     <span className="text-secondary"> {tuit.handle} - {tuit.time}</span>
-                    <i className="bi bi-x-lg float-end" onClick={() => deleteTuitHandler(tuit._id)}></i>
+                    <i className="bi bi-x-lg float-end"
+                       onClick={() => deleteTuitHandler(tuit._id)}></i>
 
                     <div className="mt-2">{tuit.tuit}</div>
                     <TuitsStats key={tuit._id} tuit={tuit}/>

@@ -16,7 +16,8 @@ const ProfileComponent = () => {
             <img src={`/images/${me.avatar}`} alt={"avatar"}
                  className="rounded-circle w-25 float-left ms-3 position-relative top-0 translate-middle-y"/>
             <Link to="/tuiter/edit-profile">
-                <button className="btn border-secondary rounded-pill float-end me-3 mt-3">Edit profile</button>
+                <button
+                    className="btn border-secondary rounded-pill float-end me-3 mt-3">Edit profile</button>
             </Link>
 
             <div className="ms-3 me-3">

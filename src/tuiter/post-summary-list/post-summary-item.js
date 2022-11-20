@@ -9,7 +9,8 @@ const PostSummaryItem = ({tuit}) => {
                     <div>{tuit.tuit}</div>
                 </div>
                 <div className="col-2">
-                    <img width={70} className="float-end rounded-3" src={`/images/${tuit.image}`} alt={"post img"}/>
+                    <img width={70} className="float-end rounded-3"
+                         src={`/images/${tuit.image}`} alt={"post img"}/>
                 </div>
             </div>
         </li>
