@@ -46,8 +46,8 @@ const EditProfile = () => {
                         onClick={saveClickHandler}>Save</button>
             </Link>
 
-            <img className="w-100" src={`/image/${me.banner}`} alt="banner"/>
-            <img src={`/image/${me.avatar}`} alt={"avatar"}
+            <img className="w-100" src={`/images/${me.banner}`} alt="banner"/>
+            <img src={`/images/${me.avatar}`} alt={"avatar"}
                  className="rounded-circle w-25 ms-3 position-relative top-0 translate-middle-y"/>
 
             <form className="end-0">

@@ -8,11 +8,11 @@ const WhatsHappening = () => {
     const dispatch = useDispatch();
     const tuitClickHandler = () => {
         const newTuit = {tuit: whatsHappening,}
-        dispatch(createTuitThunk(newTuit)); // dispatch(createTuit(newTuit));
+        dispatch(createTuitThunk(newTuit));
     }
     return (
         <div className="row">
-            <div className="col-auto"><img src="/image/nasa.png" width={60} alt={'my_avatar'}/></div>
+            <div className="col-auto"><img src="/images/nasa.png" width={60} alt={'my_avatar'}/></div>
             <div className="col-10">
                 <textarea value={whatsHappening} placeholder="What's happening?"
                           className="form-control border-0"

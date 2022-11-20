@@ -12,8 +12,8 @@ const ProfileComponent = () => {
                 <span className="text-secondary">6,100 Tuits</span>
             </div>
 
-            <img className="w-100 mt-2" src={`/image/${me.banner}`} alt="banner"/>
-            <img src={`/image/${me.avatar}`} alt={"avatar"}
+            <img className="w-100 mt-2" src={`/images/${me.banner}`} alt="banner"/>
+            <img src={`/images/${me.avatar}`} alt={"avatar"}
                  className="rounded-circle w-25 float-left ms-3 position-relative top-0 translate-middle-y"/>
             <Link to="/tuiter/edit-profile">
                 <button className="btn border-secondary rounded-pill float-end me-3 mt-3">Edit profile</button>
