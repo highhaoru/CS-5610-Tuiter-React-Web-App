@@ -5,6 +5,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ##Author
 - [Hao Jin](https://highhaoru.github.io/)
 
+##Quick Links
+- [WEB APP](https://a9--brilliant-rolypoly-fe81d3.netlify.app)
+- [Code Resource](https://github.com/highhaoru/tuiter-react-web-app/tree/a9)
+
+- [NODE APP](https://tuiter-node-server-app-haojin.herokuapp.com)
+- [NODE APP TUITS](https://tuiter-node-server-app-haojin.herokuapp.com/api/tuits)
+- [Code Resource](https://github.com/highhaoru/tuiter-node-server-app/tree/a9)
+
 ## Available Scripts
 
 In the project directory, you can run:
